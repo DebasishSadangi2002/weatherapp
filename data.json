@@ -1,0 +1,45 @@
+const data = {
+    coord: {
+      lat: 51.5085,
+      lon: -0.1257
+    },
+    dt: 1686987396,
+    id: 2643743,
+    main: {
+      feels_like: 63.07,
+      humidity: 63,
+      pressure: 1014,
+      temp: 64,
+      temp_max: 67.91,
+      temp_min: 60.49
+    },
+    name: "London",
+    sys: {
+      country: "GB",
+      id: 2075535,
+      sunrise: 1686973361,
+      sunset: 1687033202,
+      type: 2
+    },
+    timezone: 3600,
+    visibility: 10000,
+    weather: [
+      {
+        description: "overcast clouds",
+        icon: "04d",
+        id: 804,
+        main: "Clouds"
+      }
+    ],
+    wind: {
+      deg: 70,
+      speed: 6.91
+    }
+  };
+  
+  const temp = data.main.temp;
+  const windspeed = data.wind.speed;
+  
+  console.log(temp);
+  console.log(windspeed);
+  
